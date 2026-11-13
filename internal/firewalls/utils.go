@@ -6,7 +6,7 @@ import (
 
 // DropTemporaryTo 使用本地防火墙临时拦截IP数据包
 func DropTemporaryTo(ip string, expiresAt int64) {
-	// 如果为0，则表示是长期有效
+	// 如果为0,则表示是长期有效
 	if expiresAt <= 0 {
 		expiresAt = time.Now().Unix() + 3600
 	}
@@ -22,7 +22,7 @@ func DropTemporaryTo(ip string, expiresAt int64) {
 	// 使用本地防火墙延长封禁
 	var fw = Firewall()
 	if fw != nil && !fw.IsMock() {
-		// 这里 int(int64) 转换的前提是限制了 timeout <= 3600，否则将有整型溢出的风险
+		// 这里 int(int64) 转换的前提是限制了 timeout <= 3600,否则将有整型溢出的风险
 		_ = fw.DropSourceIP(ip, int(timeout), true)
 	}
 }

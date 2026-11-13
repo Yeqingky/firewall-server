@@ -233,7 +233,7 @@ func (this *NFTablesFirewall) init() error {
 			var ruleName = []byte(setAction)
 			rule, err := chain.GetRuleWithUserData(ruleName)
 
-			// 将以前的drop规则删掉，替换成后面的reject
+			// 将以前的drop规则删掉,替换成后面的reject
 			if err == nil && setAction != "allow" && rule != nil && rule.VerDict() == expr.VerdictDrop {
 				deleteErr := chain.DeleteRule(rule)
 				if deleteErr == nil {
