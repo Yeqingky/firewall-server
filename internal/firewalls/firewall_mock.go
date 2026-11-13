@@ -1,5 +1,3 @@
-// Copyright 2022 Liuxiangchao iwind.liu@gmail.com. All rights reserved.
-
 package firewalls
 
 // MockFirewall 模拟防火墙
