@@ -1,7 +1,7 @@
 package events
 
 import (
-	teaconst "github.com/TeaOSLab/firewall-server/internal/const"
+	teaconst "git.ovh.im/yeqing/firewall-server/internal/const"
 	"sync"
 )
 

@@ -1,7 +1,7 @@
 package utils_test
 
 import (
-	"github.com/TeaOSLab/firewall-server/internal/utils"
+	"git.ovh.im/yeqing/firewall-server/internal/utils"
 	"github.com/iwind/TeaGo/assert"
 	"testing"
 )

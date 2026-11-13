@@ -1,4 +1,4 @@
-module github.com/TeaOSLab/firewall-server
+module git.ovh.im/yeqing/firewall-server
 
 go 1.27.4
 

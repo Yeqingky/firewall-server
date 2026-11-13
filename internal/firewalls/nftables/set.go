@@ -5,7 +5,7 @@ package nftables
 
 import (
 	"errors"
-	"github.com/TeaOSLab/firewall-server/internal/utils"
+	"git.ovh.im/yeqing/firewall-server/internal/utils"
 	nft "github.com/google/nftables"
 	"net"
 	"strings"

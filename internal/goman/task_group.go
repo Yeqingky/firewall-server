@@ -3,7 +3,7 @@
 package goman
 
 import (
-	"github.com/TeaOSLab/firewall-server/internal/zero"
+	"git.ovh.im/yeqing/firewall-server/internal/zero"
 	"runtime"
 	"sync"
 )

@@ -5,11 +5,11 @@ package nftables
 
 import (
 	"fmt"
-	teaconst "github.com/TeaOSLab/firewall-server/internal/const"
-	"github.com/TeaOSLab/firewall-server/internal/events"
-	"github.com/TeaOSLab/firewall-server/internal/goman"
-	"github.com/TeaOSLab/firewall-server/internal/remotelogs"
-	executils "github.com/TeaOSLab/firewall-server/internal/utils/exec"
+	teaconst "git.ovh.im/yeqing/firewall-server/internal/const"
+	"git.ovh.im/yeqing/firewall-server/internal/events"
+	"git.ovh.im/yeqing/firewall-server/internal/goman"
+	"git.ovh.im/yeqing/firewall-server/internal/remotelogs"
+	executils "git.ovh.im/yeqing/firewall-server/internal/utils/exec"
 	"github.com/iwind/TeaGo/logs"
 	"os"
 	"runtime"

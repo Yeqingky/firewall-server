@@ -1,7 +1,7 @@
 package events_test
 
 import (
-	"github.com/TeaOSLab/firewall-server/internal/events"
+	"git.ovh.im/yeqing/firewall-server/internal/events"
 	"testing"
 )
 

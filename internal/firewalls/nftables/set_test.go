@@ -5,7 +5,7 @@ package nftables_test
 
 import (
 	"errors"
-	"github.com/TeaOSLab/firewall-server/internal/firewalls/nftables"
+	"git.ovh.im/yeqing/firewall-server/internal/firewalls/nftables"
 	"github.com/iwind/TeaGo/types"
 	"github.com/mdlayher/netlink"
 	"net"

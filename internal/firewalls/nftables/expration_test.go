@@ -3,7 +3,7 @@
 package nftables_test
 
 import (
-	"github.com/TeaOSLab/firewall-server/internal/firewalls/nftables"
+	"git.ovh.im/yeqing/firewall-server/internal/firewalls/nftables"
 	"github.com/iwind/TeaGo/rands"
 	"github.com/iwind/TeaGo/types"
 	"net"

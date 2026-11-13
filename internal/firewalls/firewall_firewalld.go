@@ -4,9 +4,9 @@ package firewalls
 
 import (
 	"fmt"
-	"github.com/TeaOSLab/firewall-server/internal/goman"
-	"github.com/TeaOSLab/firewall-server/internal/remotelogs"
-	executils "github.com/TeaOSLab/firewall-server/internal/utils/exec"
+	"git.ovh.im/yeqing/firewall-server/internal/goman"
+	"git.ovh.im/yeqing/firewall-server/internal/remotelogs"
+	executils "git.ovh.im/yeqing/firewall-server/internal/utils/exec"
 	"github.com/iwind/TeaGo/types"
 	"strings"
 	"time"

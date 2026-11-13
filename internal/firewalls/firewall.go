@@ -3,9 +3,9 @@
 package firewalls
 
 import (
-	teaconst "github.com/TeaOSLab/firewall-server/internal/const"
-	"github.com/TeaOSLab/firewall-server/internal/events"
-	"github.com/TeaOSLab/firewall-server/internal/remotelogs"
+	teaconst "git.ovh.im/yeqing/firewall-server/internal/const"
+	"git.ovh.im/yeqing/firewall-server/internal/events"
+	"git.ovh.im/yeqing/firewall-server/internal/remotelogs"
 	"runtime"
 	"sync"
 )

@@ -3,7 +3,7 @@
 package executils_test
 
 import (
-	executils "github.com/TeaOSLab/firewall-server/internal/utils/exec"
+	executils "git.ovh.im/yeqing/firewall-server/internal/utils/exec"
 	"testing"
 	"time"
 )

@@ -3,7 +3,7 @@
 package goman_test
 
 import (
-	"github.com/TeaOSLab/firewall-server/internal/goman"
+	"git.ovh.im/yeqing/firewall-server/internal/goman"
 	"testing"
 	"time"
 )

@@ -5,8 +5,8 @@
 package nftables_test
 
 import (
-	"github.com/TeaOSLab/firewall-server/internal/firewalls/nftables"
-	executils "github.com/TeaOSLab/firewall-server/internal/utils/exec"
+	"git.ovh.im/yeqing/firewall-server/internal/firewalls/nftables"
+	executils "git.ovh.im/yeqing/firewall-server/internal/utils/exec"
 	"testing"
 )
 
