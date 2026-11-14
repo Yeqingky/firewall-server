@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.4.3-rc.1 (2026-11-15)
+
+- 新增隔离网络命名空间中的 nftables 规则端到端测试及 Gitea 工作流
+
 ## v1.4.2-rc.1 (2026-11-13)
 
 - 新增 Gitea 工作流 mirror-to-github: 全部分支和标签强制镜像到 github.com/Yeqingky/firewall-server, 推送前过滤 AGENTS.md 和 .gitea, 并删除 GitHub 端多余的分支和标签
