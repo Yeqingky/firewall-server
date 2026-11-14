@@ -2,7 +2,7 @@
 
 ## v1.4.2-rc.1 (2026-11-13)
 
-- 新增 Gitea 工作流 mirror-to-github: 全部分支和标签强制镜像到 github.com/Yeqingky/firewall-server, 同步删除 GitHub 端多余的分支和标签
+- 新增 Gitea 工作流 mirror-to-github: 全部分支和标签强制镜像到 github.com/Yeqingky/firewall-server, 推送前过滤 AGENTS.md 和 .gitea, 并删除 GitHub 端多余的分支和标签
 - 全局标点符号统一为英文半角
 - 升级全部依赖链并升级 Go 工具链到 1.27.4, govulncheck 符号级扫描可达漏洞 2 -> 0
 - github.com/google/nftables v0.1.0 -> v0.3.0, 修复 IP 地址字节序编码错误 (GO-2024-2977)
